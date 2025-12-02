@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:wdth,wght@75..100,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -125,6 +127,59 @@ nav a:hover {
 .premios h4 {
     margin-top: 0.5rem;
 }
+
+/*----- RODAPÉ -----*/
+
+.rodape {
+    gap: 100px;
+    padding: 4rem;
+    display: flex;
+    background-color: #08080d;
+    margin-top: 5rem;
+}
+
+.rodape p {
+    color: #e5e5e5;
+    line-height: 1.6;
+    margin: 16px 0 0;
+}
+
+.rodape h3 {
+    color: #cc96ff;
+    font-size: 30px;
+    font-family: 'Nunito';
+}
+
+.rodape input {
+    margin-top: 1rem;
+    padding: 5px;
+    text-decoration: underline 2px solid #fff;
+    border: none;
+    background-color: #08080d00;
+    color: #fff;
+}
+
+input::placeholder{
+    color: #c4c4c4;
+}
+
+.logo2 i {
+    color: #bd77ff;
+    font-size: 25px;
+    margin: 1rem 0.6rem;
+    transition: 0.5s;
+}
+
+.logo2 i:hover {
+    color: #fff;
+}
+
+.logo2 {
+    font-size: 30px;
+    color: #fff;
+    margin-inline: 5rem;
+}
+
 
 /* ----------RESPONSIVIDADE---------- */
 
