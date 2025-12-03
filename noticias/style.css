@@ -51,7 +51,7 @@ nav a:hover {
 /* cards */
 .container {
     margin-top: -70px;
-    padding: 0 10rem;
+    margin-inline: 10rem;
 }
 
 .card {
@@ -175,3 +175,29 @@ input::placeholder{
         font-size: 20px;
     }
 }
+
+/* --------- RESPONSIVIDADE--------- */
+@media (max-width: 1080px) {
+    nav a {
+        font-size: 12px;
+    }
+
+
+    .navbar {
+        padding: 1rem 1rem;
+    }
+
+    .logo {
+        font-size: 1rem;
+        padding: 0 2rem;
+    }
+
+    .logo img {
+        width: 30px;
+    }
+
+    .container {
+        margin-inline: 3rem;
+    }
+}
+

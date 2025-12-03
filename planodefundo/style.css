@@ -52,7 +52,7 @@ nav a:hover {
 
 h1 {
     font-size: 50px;
-    color:  rgb(29, 29, 29);
+    color: rgb(29, 29, 29);
     padding-top: 150px;
 }
 
@@ -63,13 +63,13 @@ p {
 }
 
 .h1p {
-    margin-inline: 10rem ;
+    margin-inline: 10rem;
 }
 
 .h1p button {
     padding: 10px 15px;
     border: 2px solid #bbbbbb4f;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
     margin: 2rem 0.5rem;
     background-color: #fff;
@@ -112,7 +112,7 @@ p {
 }
 
 .esconder {
-  display: none !important;
+    display: none !important;
 }
 
 /*----- RODAPÉ -----*/
@@ -146,7 +146,7 @@ p {
     color: #fff;
 }
 
-input::placeholder{
+input::placeholder {
     color: #c4c4c4;
 }
 
@@ -165,4 +165,44 @@ input::placeholder{
     font-size: 30px;
     color: #fff;
     margin-inline: 5rem;
+}
+
+/* --------- RESPONSIVIDADE--------- */
+@media (max-width: 1080px) {
+    nav a {
+        font-size: 12px;
+    }
+
+
+    .navbar {
+        padding: 1rem 1rem;
+    }
+
+    .logo {
+        font-size: 1rem;
+        padding: 0 2rem;
+    }
+
+    .logo img {
+        width: 30px;
+    }
+
+    .h1p {
+        margin-inline: 2rem;
+    }
+
+    .fundos-container {
+        margin-inline: 3rem;
+    }
+
+    .fundos-container .pc {
+        height: 200px;
+        width: 360px;
+    }
+
+    .cel {
+        width: 155px;
+        height: 250px;
+    }
+
 }

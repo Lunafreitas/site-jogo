@@ -61,7 +61,7 @@ nav a:hover {
     margin-top: -70px;
     display: flex;
     gap: 30px;
-    padding: 0 10rem;
+    margin-inline: 10rem;
 }
 
 .card {
@@ -71,7 +71,7 @@ nav a:hover {
     background: #fff;
     border: 3px solid #f0f0f0;
     border-radius: 15px;
-    width: 320px;
+    width: 31%;
     height: 325px;
     padding: 2rem;
     transition: 0.3s;
@@ -206,5 +206,30 @@ input::placeholder{
     }
     .card {
         width: 350px;
+    }
+}
+
+/* --------- RESPONSIVIDADE--------- */
+@media (max-width: 1080px) {
+    nav a {
+        font-size: 12px;
+    }
+
+
+    .navbar {
+        padding: 1rem 1rem;
+    }
+
+    .logo {
+        font-size: 1rem;
+        padding: 0 2rem;
+    }
+
+    .logo img {
+        width: 30px;
+    }
+
+    .container {
+        margin-inline: 3rem;
     }
 }

@@ -361,7 +361,7 @@ p {
     color: #fff;
 }
 
-input::placeholder{
+input::placeholder {
     color: #c4c4c4;
 }
 
@@ -417,4 +417,52 @@ input::placeholder{
         margin-top: 4.5rem;
         margin-bottom: 2rem;
     }
+}
+
+@media (max-width: 1080px) {
+    nav a {
+        font-size: 12px;
+    }
+
+
+    .navbar {
+        padding: 1rem 1rem;
+    }
+
+    .logo {
+        font-size: 1rem;
+        padding: 0 2rem;
+    }
+
+    .logo img {
+        width: 30px;
+    }
+
+    .text-content {
+        max-width: 60%;
+    }
+
+    .informacoes {
+        padding: 6rem 3rem 3.5rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .informacoes p {
+        font-size: 14px;
+    }
+
+    .noticias {
+        font-weight: 600;
+        padding: 0.6rem 1rem;
+    }
+
+    .explore {
+        font-weight: 600;
+        margin-right: 15px;
+        padding: 0.6rem 1rem;
+    }
+
 }
